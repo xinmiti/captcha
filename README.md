@@ -1,6 +1,6 @@
 <!-- @format -->
 
-# Cursor Captcha
+# Xinmiti Captcha
 
 一个功能强大的验证码库，支持多种验证码类型和存储驱动。
 
