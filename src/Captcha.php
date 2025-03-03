@@ -1,9 +1,9 @@
 <?php
-namespace Cursor\Captcha;
+namespace Xinmiti\Captcha;
 
 use Intervention\Image\ImageManagerStatic as Image;
-use Cursor\Captcha\Drivers\DriverInterface;
-use Cursor\Captcha\Exceptions\CaptchaException;
+use Xinmiti\Captcha\Drivers\DriverInterface;
+use Xinmiti\Captcha\Exceptions\CaptchaException;
 
 class Captcha
 {
@@ -18,7 +18,7 @@ class Captcha
 
     protected function initDriver()
     {
-        $driverClass = '\\Cursor\\Captcha\\Drivers\\' . ucfirst($this->config['driver']) . 'Driver';
+        $driverClass = '\\Xinmiti\\Captcha\\Drivers\\' . ucfirst($this->config['driver']) . 'Driver';
         if (!class_exists($driverClass)) {
             throw new CaptchaException("Driver {$this->config['driver']} not found");
         }

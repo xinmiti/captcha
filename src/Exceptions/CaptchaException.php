@@ -1,5 +1,5 @@
 <?php
-namespace Cursor\Captcha\Exceptions;
+namespace Xinmiti\Captcha\Exceptions;
 
 class CaptchaException extends \Exception
 {

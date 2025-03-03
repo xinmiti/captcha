@@ -24,7 +24,7 @@
 ## 安装
 
 ```bash
-composer require cursor/captcha
+composer require xinmiti/captcha
 ```
 
 ## 配置

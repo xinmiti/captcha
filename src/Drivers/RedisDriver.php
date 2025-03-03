@@ -1,5 +1,5 @@
 <?php
-namespace Cursor\Captcha\Drivers;
+namespace Xinmiti\Captcha\Drivers;
 
 class RedisDriver implements DriverInterface
 {

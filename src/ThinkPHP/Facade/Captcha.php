@@ -1,5 +1,5 @@
 <?php
-namespace Cursor\Captcha\ThinkPHP\Facade;
+namespace Xinmiti\Captcha\ThinkPHP\Facade;
 
 use think\Facade;
 

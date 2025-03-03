@@ -1,12 +1,12 @@
 {
-	"name": "cursor/captcha",
+	"name": "xinmiti/captcha",
 	"description": "A versatile captcha library supporting multiple frameworks and storage drivers",
 	"type": "library",
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Cursor Team",
-			"email": "team@cursor.com"
+			"name": "xinmiti",
+			"email": "xinmiti@gmail.com"
 		}
 	],
 	"require": {

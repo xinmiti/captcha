@@ -1,7 +1,7 @@
 <?php
-namespace Cursor\Captcha\ThinkPHP;
+namespace Xinmiti\Captcha\ThinkPHP;
 
-use Cursor\Captcha\Captcha;
+use Xinmiti\Captcha\Captcha;
 use think\Service;
 
 class CaptchaService extends Service
