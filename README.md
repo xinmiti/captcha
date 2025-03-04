@@ -47,7 +47,7 @@ return [
 ### 基本使用
 
 ```php
-use Cursor\Captcha\Captcha;
+use Xinmiti\Captcha\Captcha;
 
 $captcha = new Captcha();
 
