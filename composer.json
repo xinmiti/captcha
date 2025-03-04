@@ -1,6 +1,11 @@
 {
 	"name": "xinmiti/captcha",
 	"description": "A versatile captcha library supporting multiple frameworks and storage drivers",
+	"homepage": "https://github.com/xinmiti/captcha",
+	"keywords": [
+		"php",
+		"captcha"
+	],
 	"type": "library",
 	"license": "MIT",
 	"authors": [
@@ -20,12 +25,12 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Cursor\\Captcha\\": "src/"
+			"Xinmiti\\Captcha\\": "src/"
 		}
 	},
 	"autoload-dev": {
 		"psr-4": {
-			"Cursor\\Captcha\\Tests\\": "tests/"
+			"Xinmiti\\Captcha\\Tests\\": "tests/"
 		}
 	},
 	"extra": {
